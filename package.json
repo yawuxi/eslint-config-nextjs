@@ -1,0 +1,39 @@
+{
+  "name": "@yawuxi/eslint-config-nextjs-ts",
+  "version": "1.0.0",
+  "description": "ESLint configuration for NextJs + Typescript development",
+  "main": "index.js",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "eslint": "^8.43.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "^5.1.6",
+    "@next/eslint-plugin-next": "^13.4.19"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "reacteslint",
+    "typescript",
+    "nextjs",
+    "typescripteslint",
+    "config",
+    "yawuxi"
+  ],
+  "author": "Dmytro <ryliov.work@gmail.com> Rylov",
+  "license": "ISC",
+  "scripts": {
+    "release": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yawuxi/eslint-config-nextjs-ts"
+  },
+  "bugs": {
+    "url": "https://github.com/yawuxi/eslint-config-nextjs-ts/issues"
+  },
+  "homepage": "https://github.com/yawuxi/eslint-config-nextjs-ts"
+}
