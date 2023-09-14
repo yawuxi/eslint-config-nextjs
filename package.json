@@ -1,6 +1,6 @@
 {
   "name": "@yawuxi/eslint-config-nextjs-ts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ESLint configuration for NextJs + Typescript development",
   "main": "index.js",
   "peerDependencies": {
