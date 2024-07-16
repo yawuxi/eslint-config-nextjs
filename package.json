@@ -3,15 +3,15 @@
   "version": "2.0.1",
   "description": "ESLint configuration for NextJs + Typescript development",
   "main": "index.js",
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
-    "@typescript-eslint/parser": "^6.4.0",
-    "eslint": "^8.43.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "typescript": "^5.1.6",
-    "@next/eslint-plugin-next": "^13.4.19"
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.34.4",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "typescript": "^5.5.3",
+    "@next/eslint-plugin-next": "^14.2.5"
   },
   "keywords": [
     "eslint",
