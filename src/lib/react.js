@@ -10,7 +10,7 @@ export default {
         "It is better if your prop ({{ propName }}) will start from 'IS' or 'HAS' prefix, example: isEnabled, hasWife",
     },
   ],
-  "react/button-has-type": "error",
+  "react/button-has-type": 0,
   "react/jsx-boolean-value": ["error", "never"],
   "react/jsx-child-element-spacing": "error",
   "react/jsx-closing-bracket-location": "error",

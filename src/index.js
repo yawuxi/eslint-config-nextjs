@@ -15,7 +15,7 @@ export default {
   files: ['**/*.@(ts|tsx)'],
   ignores: [
     'node_modules/',
-    'next/',
+    '.next/',
     'build/',
     '*.d.ts'
   ],

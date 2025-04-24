@@ -121,14 +121,7 @@ export default {
   "id-length": 0,
   "logical-assignment-operators": "error",
   "max-depth": ["error", 3],
-  "max-lines": [
-    "error",
-    {
-      max: 300,
-      skipBlankLines: true,
-      skipComments: true,
-    },
-  ],
+  "max-lines": 0,
   "max-nested-callbacks": [
     "error",
     {
