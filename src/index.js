@@ -1,0 +1,60 @@
+
+import typescriptParser from '@typescript-eslint/parser'
+import globals from 'globals';
+import nextjsPlugin from '@next/eslint-plugin-next';
+import typeScriptPlugin from '@typescript-eslint/eslint-plugin'
+import reactPlugin from 'eslint-plugin-react';
+import reactHooksPlugin from 'eslint-plugin-react-hooks';
+import importPlugin from 'eslint-plugin-import';
+import base from './lib/base.js'
+import typescript from './lib/typescript.js'
+import react from './lib/react.js'
+import imports from './lib/import.js'
+
+export default {
+  files: ['**/*.@(ts|tsx)'],
+  ignores: [
+    'node_modules/',
+    'next/',
+    'build/',
+    '*.d.ts'
+  ],
+  languageOptions: {
+    parser: typescriptParser,
+    parserOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      ecmaFeatures: {
+        globalReturn: false,
+        impliedStrict: true,
+        jsx: true,
+      },
+    },
+    ecmaVersion: 'latest',
+    globals: {
+      ...globals.browser,
+      ...globals.node,
+    }
+  },
+  plugins: {
+    '@next/next': nextjsPlugin,
+    'import': importPlugin,
+    'react': reactPlugin,
+    'react-hooks': reactHooksPlugin,
+    '@typescript-eslint': typeScriptPlugin,
+  },
+  settings: {
+    'react': {
+      version: 'detect'
+    }
+  },
+  rules: {
+    ...reactHooksPlugin.configs['recommended-latest'].rules,
+    ...reactPlugin.configs['recommended'].rules,
+    ...nextjsPlugin.configs.recommended.rules,
+    ...base,
+    ...typescript,
+    ...react,
+    ...imports,
+  },
+}

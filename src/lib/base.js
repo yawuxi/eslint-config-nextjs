@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   "array-callback-return": "warn",
   "constructor-super": "error",
   "for-direction": "error",

@@ -1,18 +1,7 @@
 {
-  "name": "@yawuxi/eslint-config-nextjs-ts",
+  "name": "@yawuxi/eslint-config-nextjs",
   "version": "3.0.1",
   "description": "ESLint configuration for NextJs + Typescript development",
-  "main": "index.js",
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.16.1",
-    "@typescript-eslint/parser": "^7.16.1",
-    "eslint": "^8.56.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-react": "^7.34.4",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "typescript": "^5.5.3",
-    "@next/eslint-plugin-next": "^14.2.5"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -35,5 +24,20 @@
   "bugs": {
     "url": "https://github.com/yawuxi/eslint-config-nextjs-ts/issues"
   },
-  "homepage": "https://github.com/yawuxi/eslint-config-nextjs-ts"
+  "homepage": "https://github.com/yawuxi/eslint-config-nextjs-ts",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@next/eslint-plugin-next": "^15.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
+    "eslint": ">= 9",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^16.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
+  }
 }
