@@ -1,6 +1,6 @@
 {
   "name": "@yawuxi/eslint-config-nextjs",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "ESLint configuration for NextJs + Typescript development",
   "keywords": [
     "eslint",
