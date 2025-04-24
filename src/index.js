@@ -49,9 +49,9 @@ export default {
     }
   },
   rules: {
-    ...reactHooksPlugin.configs['recommended-latest'].rules,
-    ...reactPlugin.configs['recommended'].rules,
+    ...reactPlugin.configs['jsx-runtime'].rules,
     ...nextjsPlugin.configs.recommended.rules,
+    ...typeScriptPlugin.configs.recommended.rules,
     ...base,
     ...typescript,
     ...react,
