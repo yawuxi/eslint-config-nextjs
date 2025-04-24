@@ -1,6 +1,6 @@
 {
   "name": "@yawuxi/eslint-config-nextjs",
-  "version": "3.0.6",
+  "version": "4.0.0",
   "description": "ESLint configuration for NextJs + Typescript development",
   "keywords": [
     "eslint",
@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/yawuxi/eslint-config-nextjs-ts",
   "main": "src/index.js",
-  "type": "module",
   "dependencies": {
     "@next/eslint-plugin-next": "^15.3.1",
     "@typescript-eslint/eslint-plugin": "^8.31.0",
