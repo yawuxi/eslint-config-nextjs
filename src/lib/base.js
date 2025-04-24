@@ -118,13 +118,7 @@ export default {
   "default-param-last": "error",
   eqeqeq: "error",
   "guard-for-in": "error",
-  "id-length": [
-    "error",
-    {
-      exceptions: ["_", "i"],
-      min: 2,
-    },
-  ],
+  "id-length": 0,
   "logical-assignment-operators": "error",
   "max-depth": ["error", 3],
   "max-lines": [
